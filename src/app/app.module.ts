@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ScrollNavigationComponent } from './components/scroll-navigation/scroll-navigation.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ScrollNavigationComponent
   ],
   imports: [
     BrowserModule,

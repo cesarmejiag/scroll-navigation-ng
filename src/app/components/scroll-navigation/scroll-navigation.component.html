@@ -1,0 +1,15 @@
+<div class="scroll-navigation">
+  <div #steps class="steps">
+    <div #step class="step" *ngFor="let space of data"></div>
+  </div>
+  <div #slides class="slides">
+    <div class="slide" *ngFor="let slide of data">
+      <div class="image">
+        <img [src]="slide.image" [alt]="slide.text" />
+      </div>
+      <div class="text">
+        <h2>{{ slide.text }}</h2>
+      </div>
+    </div>
+  </div>
+</div>
